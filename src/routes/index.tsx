@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import logo from "@/assets/logo-leboutte.png";
 import heroBg from "@/assets/hero-bg.jpg";
 import {
@@ -63,6 +63,7 @@ function Index() {
           </a>
           <nav className="hidden md:flex items-center gap-8 text-sm text-parchment/80">
             <a href="#services" className="hover:text-[color:var(--gold)] transition">Services</a>
+            <Link to="/tarifs" className="hover:text-[color:var(--gold)] transition">Tarifs</Link>
             <a href="#apropos" className="hover:text-[color:var(--gold)] transition">À propos</a>
             <a href="#contact" className="hover:text-[color:var(--gold)] transition">Contact</a>
           </nav>
