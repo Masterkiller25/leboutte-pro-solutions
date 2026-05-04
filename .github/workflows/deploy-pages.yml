@@ -31,6 +31,9 @@ jobs:
       
       - name: Build
         run: bun run build
+
+      - name: List
+        run: ls
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
