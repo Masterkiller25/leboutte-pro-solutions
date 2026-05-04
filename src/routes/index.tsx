@@ -111,7 +111,7 @@ function Index() {
               </div>
               <div className="flex items-start gap-3 text-sm text-foreground">
                 <Clock className="h-5 w-5 mt-0.5 text-[color:var(--surface-darker)]" />
-                <span>Ouvert de 9:00 à 17:<br /><em className="text-foreground/60 not-italic text-sm">Uniquement sur rendez-vous</em></span> 
+                <span>Ouvert de 9:00 à 17:00<br /><em className="text-foreground/60 not-italic text-sm">Uniquement sur rendez-vous</em></span> 
               </div>
               <div className="flex items-start gap-3 text-sm text-foreground mt-4">
                 <MapPin className="h-4 w-4 mt-0.5 text-[color:var(--surface-darker)]" />
