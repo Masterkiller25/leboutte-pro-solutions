@@ -90,7 +90,7 @@ function Index() {
             </h1>
             <p className="mt-6 text-lg md:text-xl text-parchment/80 max-w-2xl leading-relaxed">
               Didier Leboutte — votre consultant informatique à Marche-en-Famenne.
-              Solutions sur mesure pour indépendants, PME et institutions.
+              Solutions sur mesure pour indépendants, PME.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a href="#services" className="btn-gold">
@@ -112,8 +112,7 @@ function Index() {
               <div className="flex items-start gap-3 text-sm text-foreground">
                 <Clock className="h-4 w-4 mt-0.5 text-[color:var(--surface-darker)]" />
                 <div>
-                  <div className="font-semibold">Ouvert · Ferme à 17:00</div>
-                  <div className="text-foreground/70">Uniquement sur rendez-vous</div>
+                  <div className="font-semibold whitespace-pre-line">Ouvert de 9:00 à 17:00{"\n"}Uniquement sur rendez-vous</div>
                 </div>
               </div>
               <div className="flex items-start gap-3 text-sm text-foreground mt-4">
@@ -211,7 +210,7 @@ function Index() {
                 </li>
                 <li className="flex gap-3">
                   <Clock className="h-5 w-5 mt-0.5 text-[color:var(--surface-darker)]" />
-                  <span>Ouvert · Ferme à 17:00<br /><em className="text-foreground/60 not-italic text-sm">Uniquement sur rendez-vous</em></span>
+                  <span>Ouvert de 9:00 à 17:00<br /><em className="text-foreground/60 not-italic text-sm">Uniquement sur rendez-vous</em></span>
                 </li>
               </ul>
             </div>
@@ -242,7 +241,7 @@ function Index() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md border border-foreground/20 text-foreground hover:bg-foreground/5 transition"
             >
-              <MapPin className="h-4 w-4" /> Itinéraire
+              <MapPin className="h-4 w-4" /> {"\n"}
             </a>
           </div>
         </div>
